@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+</head>
+<body>
+  
+    <h2>Job Application</h2>
+    <form>
+        <label for="Name">Name: </label><br>
+        <input type="text" id="Name"><br><br>
+
+        <label for="email">Email-id:</label><br>
+        <input type="email" id="email"><br><br>
+
+        <label for="phone">Phone No.:</label><br>
+        <input type="number" id="phone"><br><br>
+
+        <label for="fileUpload">Resume</label>
+        <input type="file" name="fileUpload" id="fileUpload"><br><br>
+
+    <label for="counter">Work Eperience (in years): </label>
+        <input type="number" name="counter" id="counter" min="0" max="25"><br>
+
+            <fieldset>
+            <legend>Skills</legend>
+            <label for="checkbox1">HTML</label>
+            <input type="checkbox" name="check" id="checkbox1">
+    <br>
+            <label for="checkbox2">CSS</label>
+            <input type="checkbox" name="check" id="checkbox2">
+            <br>
+    
+            <label for="">JavaScript</label>
+            <input type="checkbox" name="check" id="checkbox3">
+           </fieldset><br>
+
+<label for="Highest Education">Highest Education</label>
+        <select name="Highest Education" id="Highest Education">
+        <option value="High School">High School</option>
+        <option value="Primary School">Primary School</option>
+        <option value="No Schooling">No Schooling</option></select><br><br>
+
+
+  
+
+       <label for="textarea1">Comments:</label><br>
+       <textarea name="textarea1" id="textarea1" cols="200" rows="10"></textarea><br>
+
+<input type="submit" value="Register">
+
+
+    </form>
+    
+</body>
+</html>
